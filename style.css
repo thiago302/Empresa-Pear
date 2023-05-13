@@ -43,7 +43,8 @@ a{
     justify-content: center;
     align-items: center;
     margin-right: 20px;
-    
+    text-transform: uppercase;
+    font-weight: bold;
 }
 #login:hover{
     background-color: hsl(120, 52%, 42%);
@@ -74,6 +75,8 @@ a{
     margin-right: 700px;
     transition: background-color 0.3s;
     box-shadow: 10px 15px 15px hsl(120, 100%, 0%);
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 a:hover{
@@ -155,6 +158,8 @@ main h3{
     align-items: center;
     justify-content:right;
     font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 #botao-conta:hover{
     background-color: hsl(120, 52%, 42%);
