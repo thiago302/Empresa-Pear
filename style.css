@@ -89,9 +89,7 @@ a:hover{
     text-transform: capitalize;
     color: hsl(120, 100%, 18%);
 }
-.linha{
-   
-}
+
 .title button:hover{
     background-color: hsl(120, 52%, 42%);
     cursor: pointer;
