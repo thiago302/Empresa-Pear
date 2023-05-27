@@ -9,6 +9,8 @@
     <meta name="Keywords" content="Empresa, Serviços, Cloud, Nuvem, Serviços em nuvem, Pear">
     <link rel="shortcut icon" href="img/Favicon.png" type="image/x-icon">
     <title>PEAR - Brasil</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -36,14 +38,42 @@
         </a>
     </header>
     <hr class="linha">
-    <section class="conteiner">
-        <img src="img/pretoebranco.jpg">
-    <div class="title"><h1><b>Sistemas antigos geram imprevistos<br>e gastos desnecessários.</b></h1>
-        <a href="criarconta.html" target="_blank">
-          <button><B>Adquira Já</B></button>
-        </a>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <div class="title"> <h1>Sistemas antigos geram imprevistos<br>e gastos desnecessários.</h1>
+              <a href="login.html" target="_blank">
+                <button><B>Adquira Já</B></button>
+              </a>
+           </div>
+            <img src="img/pretoebranco.jpg" class="d-block w-100"  alt="...">
+          </div>
+          <div class="carousel-item">
+            <div class="title"> <h1 id="h1-img2">Potencialize seu futuro <br>com a tecnologia de ponta <br>que nos impulsiona.</h1>
+                <a href="login.html" target="_blank">
+                    <button><B>Adquira Já</B></button>
+                </a>
+            </div>
+            <img src="img/data-base3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <div class="title"> <h1 id="h1-img3">Nosso time dedicado está<br>pronto para auxiliá-los 24hrs.</h1>
+                <a href="login.html" target="_blank">
+                    <button><B>Adquira Já</B></button>
+                </a>
+            </div>
+            <img src="img/pc-pessoas1.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
     </div>
-    </section>
     <main>
         <h3>Benefícios</h3>
        <div id="main_content">
@@ -72,7 +102,7 @@
     <main>
        <div id="main2_content">
         <div>
-            <h4>Pronto para começar?</h4>
+            <h4><B>Pronto para começar?</B></h4>
             <p>Crie uma conta na Pear ou faça login para começar a usar o Pear Cloud.</p>
         </div>
         <div>
